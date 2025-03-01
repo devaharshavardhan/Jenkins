@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git url: 'https://github.com/Pranith1Kumar/jenpydo', branch: 'main'
+                git url: 'https://github.com/devaharshavardhan/Jenkins', branch: 'main'
             }
         }
         stage('Build') {
